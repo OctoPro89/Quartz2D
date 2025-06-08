@@ -1,0 +1,9 @@
+XMMatrixAffineTransformation,
+XMQuaternionIdentity,
+XMMatrixInverse,
+XMMatrixLookAtRH,
+XMMatrixPerspectiveFovRH,
+XMMatrixOrthographicRH,
+XMMatrixMultiply,
+XMScalarACos,
+XMQuaternionRotationRollPitchYawFromVector

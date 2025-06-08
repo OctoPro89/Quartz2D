@@ -1,0 +1,9 @@
+﻿  degrees.c
+  mat4.c
+  o_tspace.c
+  quat.c
+  radians.c
+  vec2.c
+  vec3.c
+  vec4.c
+  OctoMath.vcxproj -> D:\Programming\C++\Crystal3D\Crystal3D\x64\ReleaseEditor\OctoMath.lib
