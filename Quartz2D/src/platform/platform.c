@@ -6,10 +6,10 @@
 #include <stdio.h>
 #include <string.h>
 
-#include <glad/glad.h>
-
 #define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
+
+#include <glad/glad.h>
 
 HDC hDC;
 HGLRC hRC;

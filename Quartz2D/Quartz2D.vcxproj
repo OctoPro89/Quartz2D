@@ -152,8 +152,11 @@
     <ClCompile Include="lib\OctoMath\src\vec2.c" />
     <ClCompile Include="lib\OctoMath\src\vec3.c" />
     <ClCompile Include="lib\OctoMath\src\vec4.c" />
+    <ClCompile Include="src\animation\sprite_animation.c" />
     <ClCompile Include="src\asset_loader\asset_loader.c" />
     <ClCompile Include="src\asset_loader\tga_loader.c" />
+    <ClCompile Include="src\core\scripts.c" />
+    <ClCompile Include="src\core\timer.c" />
     <ClCompile Include="src\ECS\ecs.c" />
     <ClCompile Include="src\main.c" />
     <ClCompile Include="src\platform\platform.c" />
@@ -161,19 +164,29 @@
     <ClCompile Include="src\renderer\shaders\shader_utils.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\animation\sprite_animation.h" />
     <ClInclude Include="src\asset_loader\asset_loader.h" />
     <ClInclude Include="src\asset_loader\tga_loader.h" />
     <ClInclude Include="src\common.h" />
+    <ClInclude Include="src\core\timer.h" />
+    <ClInclude Include="src\ECS\components.h" />
     <ClInclude Include="src\ECS\ecs.h" />
+    <ClInclude Include="src\ECS\entity_id.h" />
     <ClInclude Include="src\platform\input\input.h" />
     <ClInclude Include="src\platform\platform.h" />
+    <ClInclude Include="src\renderer\bitmap_font.h" />
     <ClInclude Include="src\renderer\color.h" />
     <ClInclude Include="src\renderer\renderer2D.h" />
     <ClInclude Include="src\renderer\shaders\shader_utils.h" />
+    <ClInclude Include="src\renderer\texture_atlas.h" />
+    <ClInclude Include="src\scripts.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\renderer\shaders\fragment_shader.glsl" />
     <None Include="src\renderer\shaders\vertex_shader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="todo.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

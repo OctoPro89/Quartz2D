@@ -1,0 +1,7 @@
+TODO:
+
+screen flashing
+camera shake
+object matrices for rotations and scaling etc
+rastered text
+ui
